@@ -90,7 +90,7 @@ body {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .container {
     width: 90%; /* Adjust width to ensure space on the sides */
     padding: 20px;
