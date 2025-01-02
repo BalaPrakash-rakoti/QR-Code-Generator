@@ -89,3 +89,37 @@ body {
         transform: translateX(0);
     }
 }
+
+@media (max-width: 400px) {
+  .container {
+    width: 90%; /* Adjust width to ensure space on the sides */
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  .container p {
+    font-size: 14px;
+  }
+
+  .container input {
+    height: 45px;
+  }
+
+  .container button {
+    height: 45px;
+  }
+
+  #imgBox {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  #imgBox.show-img {
+    max-height: 250px;
+  }
+}
